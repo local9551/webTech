@@ -3,20 +3,21 @@
    <head>
       <title>Тест</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <link rel="stylesheet" href="style.css" />
    </head>
    <body>
 		<header>
 			<a href="index.html">
-				<img src="webLogo.png" width="200" alt="Logo">
+				<img src="webLogo.png" width="200" alt="Logo" />
 			</a>
 			
 			<h1>Основы Web-технологий</h1>
 			
-			<nav>
-				<ul>
+			<nav class="navig-top">
+				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="webTech.html">Web-технологии</a>
-						<ul>
+						<ul class="submenu">
 							<li><a href="html5.html">HTML5</a></li>
 							<li><a href="css.html">CSS3</a></li>
 							<li><a href="javaScript.html">JavaScript</a></li>
@@ -27,7 +28,8 @@
 				</ul>
 			</nav>
 		</header>
-		<form name="test1" >
+		<div class="art">
+		<form name="test1" class="test">
 			<p>Какой тег предназначен для создания ссылок:<br />
 			<input type="radio" name="testRef" value="&lt;a&gt;" />&lt;a&gt;<br />
 			<input type="radio" name="testRef" value="&lt;a /&gt;" />&lt;a /&gt;<br />
@@ -47,19 +49,20 @@
 			<input type="radio" name="testInfo" value="&lt;meta /&gt;" />&lt;meta /&gt;<br /></p>
 			
 			<p>Какие теги используются при создании таблицы:<br />
-			<input type="radio" name="testTable" value="&lt;bodyt&gt;" />&lt;bodyt&gt;<br />
-			<input type="radio" name="testTable" value="&lt;td&gt;" />&lt;td&gt;<br />
-			<input type="radio" name="testTable" value="&lt;groupcol&gt;" />&lt;groupcol&gt;<br />
-			<input type="radio" name="testTable" value="&lt;col /&gt;" />&lt;col /&gt;<br /></p>
+			<input type="checkbox" name="testTable" value="&lt;bodyt&gt;" />&lt;bodyt&gt;<br />
+			<input type="checkbox" name="testTable" value="&lt;td&gt;" />&lt;td&gt;<br />
+			<input type="checkbox" name="testTable" value="&lt;groupcol&gt;" />&lt;groupcol&gt;<br />
+			<input type="checkbox" name="testTable" value="&lt;col /&gt;" />&lt;col /&gt;<br /></p>
 			
 			<p>Какие атрибуты используются при создании форм:<br />
-			<input type="radio" name="testForm" value="autocomplete" />autocomplete<br />
-			<input type="radio" name="testForm" value="action" />action<br />
-			<input type="radio" name="testForm" value="charset" />charset<br />
-			<input type="radio" name="testForm" value="validate" />validate<br /></p>
+			<input type="checkbox" name="testForm" value="autocomplete" />autocomplete<br />
+			<input type="checkbox" name="testForm" value="action" />action<br />
+			<input type="checkbox" name="testForm" value="charset" />charset<br />
+			<input type="checkbox" name="testForm" value="validate" />validate<br /></p>
 			
 			<p><input type="button" name="result" value="Результат" /></p>
 		</form>
+		</div>
 		<footer>
 			<address>
 				<a href="mailto:local9551@gmail.com">Пишите: local9551@gmail.com <br /></a>

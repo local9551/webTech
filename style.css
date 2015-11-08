@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: gray;
+}
+
+header, footer, .art {
+	width: 800px;
+	background-color: #F6F5FF;
+	margin: auto;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+footer, .art {
+	padding-bottom: 10px;
+}
+
+.art {
+	text-align: justify;
+}
+
+footer {
+	text-align: center;
+}
+
+
+h1 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 100px;
+    top: 30px;
+    left: 0;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 2px;
+    background-color: white;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+	background-color:white;
+	width:75px;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.navig-top{
+	padding-left:220px;
+}
+
+img {
+	float: left;
+	padding-right:20px;
+	border: none;
+}
+
+.webtech li, dd {
+	margin-left:40px;
+	
+}
+
+aside {
+	width:200px;
+	float: right;
+	background-color: #ABABAB;
+	font-size: 12px;
+	margin: 8px;
+	margin-right: 0;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+aside h3 {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 0;
+		
+}
+
+table {
+	margin: auto;
+	padding: auto;
+	border: none;
+}
+
+td {
+	padding-top: 3px;
+}
+
+.calcText {
+	width: 202px;
+	height: 20px;
+	border: 0,5px solid;
+	
+}
+
+.calcNum {
+	width: 38px;
+	height: 22px;
+}
+
+.calcNull {
+	width: 79px;
+	height: 22px;
+}
+
+.calcEqual {
+	width: 38px;
+	height: 50px;
+}
+
+.test input {
+	margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

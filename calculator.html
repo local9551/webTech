@@ -3,20 +3,21 @@
    <head>
       <title>Калькулятор</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <link rel="stylesheet" href="style.css" />
    </head>
    <body>
 		<header>
 			<a href="index.html">
-				<img src="webLogo.png" width="200" alt="Logo">
+				<img src="webLogo.png" width="200" alt="Logo" />
 			</a>
 			
 			<h1>Основы Web-технологий</h1>
 			
-			<nav>
-				<ul>
+			<nav class="navig-top">
+				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="webTech.html">Web-технологии</a>
-						<ul>
+						<ul class="submenu">
 							<li><a href="html5.html">HTML5</a></li>
 							<li><a href="css.html">CSS3</a></li>
 							<li><a href="javaScript.html">JavaScript</a></li>
@@ -27,76 +28,78 @@
 				</ul>
 			</nav>
 		</header>
+		<div class="art">
 		<form method="post" id="calculator" name="calculator"></form>
-		<table border="1">
+		<table>
 			<tr>
 				<td colspan="5">
-					<input type="text" size="25" name="calcText" form="calculator">
+					<input type="text" size="25" class="calcText" name="calcText" form="calculator">
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="button" name="but7" form="calculator" value="7" />
+					<input type="button" class="calcNum" name="but7" form="calculator" value="7" />
 				</td>
 				<td>
-					<input type="button" name="but8" form="calculator" value="8" />
+					<input type="button" class="calcNum" name="but8" form="calculator" value="8" />
 				</td>
 				<td>
-					<input type="button" name="but9" form="calculator" value="9" />
+					<input type="button" class="calcNum" name="but9" form="calculator" value="9" />
 				</td>
 				<td>
-					<input type="button" name="but/" form="calculator" value="/" />
+					<input type="button" class="calcNum" name="but/" form="calculator" value="/" />
 				</td>
 				<td>
-					<input type="button" name="butC" form="calculator" value="C" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="button" name="but4" form="calculator" value="4" />
-				</td>
-				<td>
-					<input type="button" name="but5" form="calculator" value="5" />
-				</td>
-				<td>
-					<input type="button" name="but6" form="calculator" value="6" />
-				</td>
-				<td>
-					<input type="button" name="but*" form="calculator" value="*" />
-				</td>
-				<td>
-					<input type="button" name="but&plusmn;" form="calculator" value="&plusmn;" />
+					<input type="button" class="calcNum" name="butC" form="calculator" value="C" />
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="button" name="but1" form="calculator" value="1" />
+					<input type="button" class="calcNum" name="but4" form="calculator" value="4" />
 				</td>
 				<td>
-					<input type="button" name="but2" form="calculator" value="2" />
+					<input type="button" class="calcNum" name="but5" form="calculator" value="5" />
 				</td>
 				<td>
-					<input type="button" name="but3" form="calculator" value="3" />
+					<input type="button" class="calcNum" name="but6" form="calculator" value="6" />
 				</td>
 				<td>
-					<input type="button" name="but-" form="calculator" value="-" />
+					<input type="button" class="calcNum" name="but*" form="calculator" value="*" />
+				</td>
+				<td>
+					<input type="button" class="calcNum" name="but&plusmn;" form="calculator" value="&plusmn;" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="calcNum" name="but1" form="calculator" value="1" />
+				</td>
+				<td>
+					<input type="button" class="calcNum" name="but2" form="calculator" value="2" />
+				</td>
+				<td>
+					<input type="button" class="calcNum" name="but3" form="calculator" value="3" />
+				</td>
+				<td>
+					<input type="button" class="calcNum" name="but-" form="calculator" value="-" />
 				</td>
 				<td rowspan="2">
-					<input type="button" name="but=" form="calculator" value="=" />
+					<input type="button" class="calcEqual" name="but=" form="calculator" value="=" />
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<input type="button" name="but0" form="calculator" value="0" />
+					<input type="button" class="calcNull" name="but0" form="calculator" value="0" />
 				</td>
 				<td>
-					<input type="button" name="but." form="calculator" value="." />
+					<input type="button" class="calcNum" name="but." form="calculator" value="." />
 				</td>
 				<td>
-					<input type="button" name="but+" form="calculator" value="+" />
+					<input type="button" class="calcNum" name="but+" form="calculator" value="+" />
 				</td>
 			</tr>
 		</table>
+		</div>
 		<footer>
 			<address>
 				<a href="mailto:local9551@gmail.com">Пишите: local9551@gmail.com <br /></a>

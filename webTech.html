@@ -3,20 +3,21 @@
    <head>
       <title>Web-технологии</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <link rel="stylesheet" href="style.css" />
    </head>
    <body>
 		<header>
 			<a href="index.html">
-				<img src="webLogo.png" width="200" alt="Logo">
+				<img src="webLogo.png" width="200" alt="Logo" />
 			</a>
 			
 			<h1>Основы Web-технологий</h1>
 			
-			<nav>
-				<ul>
+			<nav class="navig-top">
+				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="webTech.html">Web-технологии</a>
-						<ul>
+						<ul class="submenu">
 							<li><a href="html5.html">HTML5</a></li>
 							<li><a href="css.html">CSS3</a></li>
 							<li><a href="javaScript.html">JavaScript</a></li>
@@ -28,8 +29,9 @@
 			</nav>
 		</header>
 		
+		<div class="art">
 		<p>Web-технологии можно условно разделить на две пересекающиеся группы: <em>клиентские</em> и <em>серверные</em></p>
-		<ul>
+		<ul class="webtech">
 			<li>Клиентские:
 				<dl>
 					<dt><strong>HTML</strong></dt>
@@ -51,6 +53,8 @@
 				</dl>
 			</li>
 		</ul>
+		</div>
+		
 		<footer>
 			<address>
 				<a href="mailto:local9551@gmail.com">Пишите: local9551@gmail.com <br /></a>
