@@ -130,7 +130,7 @@ aside h3 {
 
 table {
 	margin: auto;
-	padding: auto;
+	/*padding: auto;*/
 	border: none;
 }
 
@@ -142,8 +142,8 @@ td {
 	padding-bottom: 0px;
 }
 .calcText {
-	width: 195px;
-	height: 20px;
+	width: 194px;
+	height: 22px;
 	border: 0,5px solid;
 }
 
