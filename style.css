@@ -138,6 +138,9 @@ aside h3 {
 	width:194px;
 }
 
+td {
+	width: 43px;
+}
 
 td input {
 	width:100%;
