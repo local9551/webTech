@@ -128,45 +128,42 @@ aside h3 {
 		
 }
 
-table {
-	margin: auto;
-	/*padding: auto;*/
-	border: none;
+.calcTable {
+	margin:auto;
+	width:194px;
+	height:110px;
 }
 
-td {
-	padding-bottom: 3px;
-	
-}
-.calcTextTd {
-	padding-bottom: 0px;
-}
 .calcText {
-	width: 194px;
-	height: 22px;
-	border: 0,5px solid;
+	width:194px;
 }
 
-.calcNum {
-	width: 38px;
-	height: 22px;
-	
-}
 
-.calcNull {
-	width: 78px;
-	height: 22px;
+td input {
+	width:100%;
+	height:22px;
 }
 
 .calcEqual {
-	width: 38px;
-	height: 50px;
+	height:48px;
+
+}
+
+td {
+	padding-bottom: 2px;
+}
+
+.calcTextTd {
+	padding-bottom: 0px;
 }
 
 .test input {
 	margin-left:10px;
 }
 
+.testResult {
+	margin-top:7px;
+}
 
 
 
